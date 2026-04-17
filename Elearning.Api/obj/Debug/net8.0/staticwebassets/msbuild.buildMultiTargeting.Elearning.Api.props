@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Elearning.Api.props" />
-</Project>
