@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+
+tools/
+*.log
+*.err.log
+
+ElearningPlatformDb.mdf
+ElearningPlatformDb_log.ldf
