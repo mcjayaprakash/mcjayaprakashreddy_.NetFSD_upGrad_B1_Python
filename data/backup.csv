@@ -1,0 +1,3 @@
+ticket_id,employee_name,department,issue_description,category,priority,status,created_date,updated_date,closed_date,assigned_to,sla_breached,ticket_type,severity,resolution_notes,incident_category
+TKT001,Rana,Backend,Server is not working,Server Down,P1,In Progress,2026-04-23 11:42:58,2026-04-24 12:45:50,2026-04-24 11:59:26,Unassigned,True,Incident,Medium,,Unplanned Interruption
+TKT002,Vijay,Testing,Internet is disconnecting frequently,Internet Down,P2,Open,2026-04-24 11:58:55,2026-04-24 11:58:55,,Support Team Lead,False,Incident,Medium,,Unplanned Interruption

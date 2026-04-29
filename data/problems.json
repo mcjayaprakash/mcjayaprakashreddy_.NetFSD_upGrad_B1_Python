@@ -1,0 +1,127 @@
+{
+    "PRB00001": {
+        "problem_id": "PRB00001",
+        "issue_category": "Password Reset",
+        "first_occurrence": "2024-04-10",
+        "occurrence_count": 5,
+        "status": "Open",
+        "severity": "Low",
+        "root_cause": "AD synchronization issues between primary and backup domain controllers",
+        "permanent_solution": null,
+        "workarounds": [
+            {
+                "workaround": "Manually reset password through admin panel",
+                "effectiveness": "90%"
+            },
+            {
+                "workaround": "Wait 30 minutes for sync to complete",
+                "effectiveness": "80%"
+            }
+        ],
+        "related_tickets": ["TKT004", "TKT010", "TKT015", "TKT020", "TKT025"],
+        "created_date": "2024-04-10 14:30:00",
+        "resolved_date": null
+    },
+    "PRB00002": {
+        "problem_id": "PRB00002",
+        "issue_category": "Laptop Slow",
+        "first_occurrence": "2024-03-25",
+        "occurrence_count": 12,
+        "status": "Solution Identified",
+        "severity": "Medium",
+        "root_cause": "Outdated device drivers and excessive startup programs",
+        "permanent_solution": {
+            "description": "Deploy updated driver package and optimize startup programs",
+            "implementation_steps": [
+                "1. Update all device drivers using Dell/HP/Lenovo management tools",
+                "2. Disable non-essential startup programs via Task Scheduler",
+                "3. Clean temporary files and cache",
+                "4. Perform full antivirus scan"
+            ],
+            "created_date": "2024-04-15 10:00:00"
+        },
+        "workarounds": [
+            {
+                "workaround": "Restart laptop in Safe Mode to identify problematic program",
+                "effectiveness": "75%"
+            }
+        ],
+        "related_tickets": ["TKT003", "TKT008", "TKT012", "TKT016", "TKT019", "TKT023", "TKT027", "TKT031", "TKT035", "TKT039", "TKT043", "TKT047"],
+        "created_date": "2024-03-25 09:15:00",
+        "resolved_date": null
+    },
+    "PRB00003": {
+        "problem_id": "PRB00003",
+        "issue_category": "Printer not working",
+        "first_occurrence": "2024-04-01",
+        "occurrence_count": 8,
+        "status": "Analysis",
+        "severity": "Medium",
+        "root_cause": "Network print queue corruption and driver conflicts",
+        "permanent_solution": null,
+        "workarounds": [
+            {
+                "workaround": "Clear print queue and restart print spooler service",
+                "effectiveness": "85%"
+            },
+            {
+                "workaround": "Remove printer and add again with fresh driver",
+                "effectiveness": "95%"
+            }
+        ],
+        "related_tickets": ["TKT005", "TKT009", "TKT013", "TKT017", "TKT021", "TKT028", "TKT032", "TKT036"],
+        "created_date": "2024-04-01 11:45:00",
+        "resolved_date": null
+    },
+    "PRB00004": {
+        "problem_id": "PRB00004",
+        "issue_category": "High CPU usage on server",
+        "first_occurrence": "2024-03-15",
+        "occurrence_count": 18,
+        "status": "Implementation",
+        "severity": "High",
+        "root_cause": "Runaway process in background service and memory leak in application",
+        "permanent_solution": {
+            "description": "Apply service patch and implement process monitoring",
+            "implementation_steps": [
+                "1. Apply hotfix KB123456 to Windows Server",
+                "2. Upgrade problematic application to v3.2.1",
+                "3. Enable CPU monitoring alerts with 85% threshold",
+                "4. Configure automatic process restart on high CPU"
+            ],
+            "created_date": "2024-04-12 14:20:00"
+        },
+        "workarounds": [
+            {
+                "workaround": "Manually restart affected service to reset CPU usage",
+                "effectiveness": "100%"
+            }
+        ],
+        "related_tickets": ["TKT006", "TKT011", "TKT014", "TKT018", "TKT022", "TKT026", "TKT029", "TKT033", "TKT037", "TKT041", "TKT044", "TKT048", "TKT052", "TKT056", "TKT059", "TKT062", "TKT065", "TKT068"],
+        "created_date": "2024-03-15 16:00:00",
+        "resolved_date": null
+    },
+    "PRB00005": {
+        "problem_id": "PRB00005",
+        "issue_category": "Disk space full",
+        "first_occurrence": "2024-04-05",
+        "occurrence_count": 6,
+        "status": "Registered",
+        "severity": "High",
+        "root_cause": "Excessive log file accumulation and uncompressed backup files",
+        "permanent_solution": null,
+        "workarounds": [
+            {
+                "workaround": "Archive old logs to external storage",
+                "effectiveness": "100%"
+            },
+            {
+                "workaround": "Compress existing backup files",
+                "effectiveness": "95%"
+            }
+        ],
+        "related_tickets": ["TKT007", "TKT024", "TKT030", "TKT038", "TKT046", "TKT054"],
+        "created_date": "2024-04-05 13:30:00",
+        "resolved_date": null
+    }
+}

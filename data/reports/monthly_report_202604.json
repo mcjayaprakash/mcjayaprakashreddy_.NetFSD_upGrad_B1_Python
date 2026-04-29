@@ -1,0 +1,29 @@
+{
+    "report_type": "Monthly Trend",
+    "generated_date": "2026-04-23 11:55:54",
+    "month": "April 2026",
+    "trends": {
+        "total_tickets_30days": 1,
+        "most_common_issue": {
+            "category": "Server Down",
+            "count": 1
+        },
+        "average_resolution_hours": 0,
+        "department_with_most_incidents": {
+            "department": "Backend",
+            "incident_count": 1
+        },
+        "weekly_ticket_volume": {
+            "2026-W17": 1
+        },
+        "priority_distribution": {
+            "P1": 1
+        },
+        "category_distribution": {
+            "Server Down": 1
+        },
+        "department_distribution": {
+            "Backend": 1
+        }
+    }
+}

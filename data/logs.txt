@@ -1,0 +1,116 @@
+[2026-04-23 10:56:49] [INFO] Tickets file not found at C:\upgrad-backend\Python-IT-Servicedesk-Project\data\tickets.json. Starting with empty tickets.
+[2026-04-23 10:56:49] [INFO] Ticket Manager initialized
+[2026-04-23 10:56:49] [INFO] System Monitor initialized
+[2026-04-23 10:56:49] [INFO] System Monitor initialized
+[2026-04-23 10:56:49] [INFO] IT Service Desk Application started
+[2026-04-23 11:09:42] [WARNING] Ticket 5 not found
+[2026-04-23 11:09:57] [WARNING] Ticket 8698o not found
+[2026-04-23 11:12:06] [SUCCESS] Saved 1 tickets to file.
+[2026-04-23 11:12:06] [SUCCESS] Ticket TKT001 created - Category: High CPU usage on server, Priority: P1
+[2026-04-23 11:14:46] [WARNING] Ticket 1 not found
+[2026-04-23 11:19:05] [SUCCESS] Saved 1 tickets to file.
+[2026-04-23 11:19:05] [SUCCESS] Ticket TKT001 status updated: Open → Open
+[2026-04-23 11:20:52] [SUCCESS] Saved 0 tickets to file.
+[2026-04-23 11:20:52] [WARNING] Ticket TKT001 deleted
+[2026-04-23 11:42:58] [SUCCESS] Saved 1 tickets to file.
+[2026-04-23 11:42:58] [SUCCESS] Ticket TKT001 created - Category: Server Down, Priority: P1
+[2026-04-23 11:53:38] [INFO] CPU threshold set to 91%
+[2026-04-23 11:53:55] [INFO] RAM threshold set to 95%
+[2026-04-23 11:54:10] [INFO] Disk threshold set to 90%
+[2026-04-23 11:55:10] [SUCCESS] Daily summary report generated
+[2026-04-23 11:55:54] [SUCCESS] Monthly trend report generated
+[2026-04-23 11:55:54] [SUCCESS] Monthly report saved to C:\upgrad-backend\Python-IT-Servicedesk-Project\data\reports\monthly_report_202604.json
+[2026-04-23 12:33:58] [INFO] Successfully loaded 1 tickets from file.
+[2026-04-23 12:33:58] [INFO] Ticket Manager initialized
+[2026-04-23 12:33:58] [INFO] System Monitor initialized
+[2026-04-23 12:33:58] [INFO] System Monitor initialized
+[2026-04-23 12:33:58] [INFO] IT Service Desk Application started
+[2026-04-24 09:49:34] [INFO] Successfully loaded 1 tickets from file.
+[2026-04-24 09:49:35] [INFO] Ticket Manager initialized
+[2026-04-24 09:49:35] [INFO] System Monitor initialized
+[2026-04-24 09:49:35] [INFO] System Monitor initialized
+[2026-04-24 09:49:35] [INFO] IT Service Desk Application started
+[2026-04-24 10:06:03] [SUCCESS] Daily summary report generated
+[2026-04-24 11:07:03] [SUCCESS] Daily summary report generated
+[2026-04-24 11:07:15] [SUCCESS] Monthly trend report generated
+[2026-04-24 11:08:22] [SUCCESS] Backed up 1 tickets to CSV file.
+[2026-04-24 11:08:22] [INFO] Application shut down normally
+[2026-04-24 11:09:06] [INFO] Successfully loaded 1 tickets from file.
+[2026-04-24 11:09:06] [INFO] Ticket Manager initialized
+[2026-04-24 11:09:06] [INFO] System Monitor initialized
+[2026-04-24 11:09:06] [INFO] System Monitor initialized
+[2026-04-24 11:09:06] [INFO] IT Service Desk Application started
+[2026-04-24 11:20:11] [INFO] Successfully loaded 1 tickets from file.
+[2026-04-24 11:20:11] [INFO] Ticket Manager initialized
+[2026-04-24 11:20:11] [INFO] System Monitor initialized
+[2026-04-24 11:20:11] [INFO] System Monitor initialized
+[2026-04-24 11:20:11] [INFO] IT Service Desk Application started
+[2026-04-24 11:25:57] [INFO] SLA Scheduler started (check interval: 60s)
+ribute 'status'
+[2026-04-24 11:25:57] [ERROR] Error checking escalations: 'dict' object has no attribute 'status'
+[2026-04-24 11:26:46] [INFO] SLA Scheduler stopped
+[2026-04-24 11:27:07] [SUCCESS] Saved 1 tickets to file.
+[2026-04-24 11:27:49] [SUCCESS] Saved 1 tickets to file.
+[2026-04-24 11:28:54] [ERROR] Error escalating ticket: 'dict' object has no attribute 'assigned_to' and no __dict__ for setting new attributes
+[2026-04-24 11:29:29] [INFO] Alert tracking reset
+[2026-04-24 11:46:27] [INFO] Successfully loaded 1 tickets from file.
+[2026-04-24 11:46:27] [INFO] Ticket Manager initialized
+[2026-04-24 11:46:27] [INFO] System Monitor initialized
+[2026-04-24 11:46:27] [INFO] System Monitor initialized
+[2026-04-24 11:46:27] [INFO] IT Service Desk Application started
+[2026-04-24 11:47:22] [SUCCESS] Saved 1 tickets to file.
+[2026-04-24 11:56:31] [INFO] Successfully loaded 1 tickets from file.
+[2026-04-24 11:56:31] [INFO] Ticket Manager initialized
+[2026-04-24 11:56:31] [INFO] System Monitor initialized
+[2026-04-24 11:56:31] [INFO] System Monitor initialized
+[2026-04-24 11:56:31] [INFO] IT Service Desk Application started
+[2026-04-24 11:58:55] [SUCCESS] Saved 2 tickets to file.
+[2026-04-24 11:58:55] [SUCCESS] Ticket TKT002 created - Category: Internet Down, Priority: P2
+[2026-04-24 11:59:26] [SUCCESS] Saved 2 tickets to file.
+[2026-04-24 11:59:26] [SUCCESS] Ticket TKT001 status updated: Open → Closed
+[2026-04-24 12:04:03] [INFO] CPU threshold set to 80%
+[2026-04-24 12:04:25] [INFO] RAM threshold set to 90%
+[2026-04-24 12:04:42] [INFO] Disk threshold set to 10%
+[2026-04-24 12:09:35] [INFO] Successfully loaded 2 tickets from file.
+[2026-04-24 12:09:35] [INFO] Ticket Manager initialized
+[2026-04-24 12:09:35] [INFO] System Monitor initialized
+[2026-04-24 12:09:35] [INFO] System Monitor initialized
+[2026-04-24 12:09:35] [INFO] IT Service Desk Application started
+[2026-04-24 12:11:08] [INFO] Successfully loaded 2 tickets from file.
+[2026-04-24 12:11:08] [INFO] Ticket Manager initialized
+[2026-04-24 12:11:08] [INFO] System Monitor initialized
+[2026-04-24 12:11:08] [INFO] System Monitor initialized
+[2026-04-24 12:11:08] [INFO] IT Service Desk Application started
+[2026-04-24 12:44:45] [SUCCESS] Saved 3 tickets to file.
+[2026-04-24 12:44:45] [SUCCESS] Ticket TKT003 created - Category: Printer not working, Priority: P3
+[2026-04-24 12:45:50] [SUCCESS] Saved 3 tickets to file.
+[2026-04-24 12:45:50] [SUCCESS] Ticket TKT001 status updated: Closed → In Progress
+[2026-04-24 12:46:55] [INFO] CPU threshold set to 95%
+[2026-04-24 12:47:02] [INFO] RAM threshold set to 85%
+[2026-04-24 12:47:04] [INFO] Disk threshold set to 90%
+[2026-04-24 12:47:22] [ERROR] Error creating backup: dict contains fields not in fieldnames: 'approval_status', 'fulfillment_date', 'request_type'
+[2026-04-24 12:47:22] [INFO] Application shut down normally
+[2026-04-24 12:50:26] [INFO] Successfully loaded 3 tickets from file.
+[2026-04-24 12:50:26] [INFO] Ticket Manager initialized
+[2026-04-24 12:50:26] [INFO] System Monitor initialized
+[2026-04-24 12:50:26] [INFO] System Monitor initialized
+[2026-04-24 12:50:26] [INFO] IT Service Desk Application started
+[2026-04-24 12:50:35] [SUCCESS] Daily summary report generated
+[2026-04-28 17:39:20] [INFO] Successfully loaded 3 tickets from file.
+[2026-04-28 17:39:20] [INFO] Ticket Manager initialized
+[2026-04-28 17:39:20] [INFO] System Monitor initialized
+[2026-04-28 17:39:20] [INFO] System Monitor initialized
+[2026-04-28 17:39:20] [INFO] IT Service Desk Application started
+[2026-04-28 17:39:50] [INFO] Successfully loaded 3 tickets from file.
+[2026-04-28 17:39:50] [INFO] Ticket Manager initialized
+[2026-04-28 17:39:50] [INFO] System Monitor initialized
+[2026-04-28 17:39:50] [INFO] System Monitor initialized
+[2026-04-28 17:39:50] [INFO] IT Service Desk Application started
+[2026-04-28 17:40:54] [ERROR] Error creating backup: dict contains fields not in fieldnames: 'approval_status', 'request_type', 'fulfillment_date'
+[2026-04-28 17:40:54] [INFO] Application shut down normally
+[2026-04-29 10:05:29] [INFO] Successfully loaded 3 tickets from file.
+[2026-04-29 10:05:29] [INFO] Ticket Manager initialized
+[2026-04-29 10:05:29] [INFO] System Monitor initialized
+[2026-04-29 10:05:29] [INFO] System Monitor initialized
+[2026-04-29 10:05:29] [INFO] IT Service Desk Application started
+[2026-04-29 10:06:35] [SUCCESS] Monthly trend report generated
